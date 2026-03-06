@@ -23,5 +23,7 @@ class DatabaseSeeder extends Seeder
         ]);
         // $this->call(ProvinsiTableSeeder::class);
         $this->call(KabupatenTableSeeder::class);
+        $this->call(KecamatanTableSeeder::class);
+        $this->call(DesaTableSeeder::class);
     }
 }
